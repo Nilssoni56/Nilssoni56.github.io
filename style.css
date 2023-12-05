@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #d2a2f3;
+}
+
+#navbar {
+  padding: 30px;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.button {
+  font-family: "Consolas";
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 1.1em;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+button:hover {
+  border-color: #539ef3;
+  color: black;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1d0ed;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
+.otsikko {
+  text-align: center;
+  font-family: "Consolas";
+}
+.ensimmäinen {
+  text-align: center;
+  margin: 50px;
+}
+.listat {
+  margin: 4em;
+  font-size: 1.5em;
+}
+
+/* /* .content {
+  width: 100%; 
+} */
+
+.kuva {
+  float: right;
+  margin: 10px;
+  width: 450px;
+  height: auto;
+}
+
+p {
+  text-align: justify;
+  font-size: 29px;
+}
+
+#taulukko {
+  font-size: 25px;
+  display: flex;
+  padding: 15px;
+  margin: 15em;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  border-color: aliceblue;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    margin: 5px auto; /* Further reduced margin for very small screens */
+  }
+  .ensimmäinen {
+    margin: 10px; /* Increased margin for small screens */
+  }
+  .listat {
+    margin: 0.5em; /* Further reduced margin for small screens */
+  }
+  .kuva {
+    max-width: none; /* Allow the image to expand to its original size */
+  }
+  p {
+    font-size: 20px; /* Further reduced font size for small screens */
+  }
+  #taulukko {
+    font-size: 18px; /* Further reduced font size for small screens */
+  }
+  th,
+  td {
+    padding: 5px; /* Further reduced padding for small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles for screens up to 480px wide */
+
+  #navbar {
+    margin: 5px auto; /* Adjusted margin for very small screens */
+  }
+  .ensimmäinen {
+    margin: 10px; /* Increased margin for small screens */
+  }
+  .listat {
+    margin: 0.5em; /* Further reduced margin for small screens */
+  }
+  .kuva {
+    max-width: none; /* Allow the image to expand to its original size */
+  }
+  p {
+    font-size: 20px; /* Further reduced font size for small screens */
+  }
+  #taulukko {
+    font-size: 18px; /* Further reduced font size for small screens */
+  }
+  th,
+  td {
+    padding: 5px; /* Further reduced padding for small screens */
+  }
+}
